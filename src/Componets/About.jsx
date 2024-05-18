@@ -3,7 +3,6 @@ import w_car from "../images/svg/Wolswagan.svg";
 import mardices from "../images/png/mer.webp";
 import mini from "../images/svg/Mini-car.svg";
 import car_cat from "../images/svg/car-cat.svg";
-import alllogo from "../images/png/all-logo.png";
 const About = () => {
   return (
     <>

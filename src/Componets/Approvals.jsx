@@ -1,5 +1,5 @@
 import React from "react";
-import blur_lyar from "../images/png/blue-img.png";
+import blur_lyar from "../images/png/blue-img.webp";
 const Approvals = () => {
   return (
     <>

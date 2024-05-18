@@ -19,16 +19,20 @@
   box-shadow: 0px 2px 20.9px 0px #B61C1FCC;
 
 }
-.common_btn:hover{
+
+.common_btn:hover {
   background: white;
   color: var(--color-red);
 }
+
 .dropbtn {
- transition: all linear 300ms;
+  transition: all linear 300ms;
 }
-.cursel_pointer{
+
+.cursel_pointer {
   cursor: pointer !important;
 }
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -82,11 +86,6 @@
   max-width: 1164px !important;
 }
 
-.section_max_w {
-  max-width: 1536px;
-  width: 100%;
-}
-
 
 /* navbaar */
 .nav_bg {
@@ -120,7 +119,7 @@
 
 /* hero */
 .hero_bg_img {
-  background-image: url(./images/png/Hero-bg-img.png);
+  background-image: url(./images/png/Hero-bg-img.webp);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 777.37px;
@@ -154,7 +153,7 @@
 
 
 .bg-lyar {
-  background-image: url(../src/images/png/bg-white-lyar.png);
+  background-image: url(../src/images/png/bg-white-lyar.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: unset;
@@ -167,6 +166,7 @@
   padding-left: 24px;
   padding-right: 24px;
   right: 0;
+  justify-content: center;
   margin-top: 30px;
   bottom: 85px;
 }
@@ -207,7 +207,7 @@ img[alt="golden"] {
 }
 
 .Approvals_bg_img {
-  background-image: url(../src/images/png/Approvals-lyar.png);
+  background-image: url(../src/images/png/Approvals-lyar.webp);
   background-repeat: no-repeat;
   background-position: unset;
   background-size: cover;
@@ -244,7 +244,7 @@ img[alt="Approvals_lyar"] {
 /* about */
 
 .about_bg_img {
-  background-image: url(../src/images/png/about-bg.png);
+  background-image: url(../src/images/png/about-bg.webp);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -504,15 +504,15 @@ img[alt="Approvals_lyar"] {
   text-shadow: var(--color-red) 0px 7px 18px;
 }
 
-  .ellipe {
-    max-width: 354px;
-    height: 380px;
-    width: 100%;
-    background: #B91C20;
-    filter: blur(219px);
-    position: absolute;
-    right: -4%;
-    bottom: 22%;
+.ellipe {
+  max-width: 354px;
+  height: 380px;
+  width: 100%;
+  background: #B91C20;
+  filter: blur(219px);
+  position: absolute;
+  right: -4%;
+  bottom: 22%;
 }
 
 
@@ -695,6 +695,24 @@ img[alt="Approvals_lyar"] {
 
     height: 1290.43px;
     min-height: unset;
+  }
+}
+
+@media (min-width:1441px) {
+  .bg-lyar {
+    max-width: 1240px;
+    background-size: 100% 100%;
+    min-height: 417px;
+    padding-left: 135px;
+    display: flex;
+    justify-content: start !important;
+  }
+
+  img[alt="golden"] {
+    left: 6%;
+  }
+  .Approvals_bg_img{
+    max-width: 1400px;
   }
 }
 

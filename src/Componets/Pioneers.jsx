@@ -25,7 +25,7 @@ const Pioneers = () => {
     
         <div className="d-flex pb-85 justify-content-xl-end">
 
-          <div className="bg-lyar d-flex justify-content-center align-items-center">
+          <div className="bg-lyar d-flex   align-items-center">
             <div className="atlantic_text_max_w" data-aos="zoom-in">
               <p  className=" position-relative z-2  mb-45 color-black DM-Sans fw-normal text-24 lh-36">
                 Atlantic Grease & Lubricants is one of the leading manufacturers

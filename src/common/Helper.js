@@ -1,4 +1,4 @@
-import read from "../images/png/Read-more-img.png";
+import read from "../images/png/Read-more-img.webp";
 
 export const card = [
   {
