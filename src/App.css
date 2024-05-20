@@ -122,7 +122,7 @@
   background-image: url(./images/png/Hero-bg-img.webp);
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 777.37px;
+  min-height: 100vh;
   background-size: cover;
 }
 
@@ -698,7 +698,7 @@ img[alt="Approvals_lyar"] {
   }
 }
 
-@media (min-width:1441px) {
+@media (min-width:1537px) {
   .bg-lyar {
     max-width: 1240px;
     background-size: 100% 100%;
